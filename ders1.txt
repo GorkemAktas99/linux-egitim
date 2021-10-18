@@ -1,0 +1,23 @@
+----- Komutlar -----
+
+-> ls
+   - ls komutu bulunulan dizinin altindaki dosya ve klasorleri goruntuler
+   - Ayni zamanda birkac parametre alabilmektedir
+   - Eger ls -a denirse gizli klasorler ve dosyalar dahil her seyi gosterir
+   - ls komutu yanina bir path alirsa bu path altindaki tum dosya ve klasorleri gosterir
+   -> Ornek Kullanimlar
+       - ls
+       - ls ./Desktop
+       - ls -a
+
+-> mkdir
+   - mkdir komutu bulundugumuz klasor veya baska bir klasor altinda klasor yaratmamizi saglar
+   -> Ornek Kullanimlar
+       - mkdir Hello -> Bulunulan dizinde "Hello" diye bir klasor acar
+       - mkdir ./Desktop/Hello -> Bulunulan dizinin altinda yer alan Desktop klasorunun altina `Hello` diye bir klasor acar
+
+-> mv
+   - mv komutu bir dosya veya klasoru istenilen bir dosya veya klasor altina tasir
+   -> Ornek Kullanimlar
+       - mv ./tasinacak.txt ./hedef -> Bulunulan klasorun altindaki tasinacak.txt dosyasini bulundugumuz klasordeki hedef dosyasinin icine tasir
+ 
